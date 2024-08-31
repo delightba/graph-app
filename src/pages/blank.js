@@ -3,7 +3,7 @@ import Header from '../layout/header'
 
 export default function Blank() {
   return (
-    <div className='bg-danger vh-100' >
+    <div className='bg-warning vh-100' >
       <Header />
       <div className='container'>
         <h3 className='text-white'>Blank Page</h3>
