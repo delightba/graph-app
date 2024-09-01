@@ -56,7 +56,7 @@ export default function Contact() {
 
                     <div className="col-sm-12 col-lg-6 col-md-12">
 
-                        <form action="/contact">
+                        <form action="/">
                             <div className='bg-white p-5'>
                                 <div className='d-flex gap-4 mb-4' style={{flexWrap:'wrap'}}>
                                     <input type="text" placeholder='Name' className='w-100' required />

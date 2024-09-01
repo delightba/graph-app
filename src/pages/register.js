@@ -11,7 +11,7 @@ export default function Register() {
                     <h4 className='fst-italic text-success'>Create an Account / Register</h4>
                     <h6 className='text-success'>Enter your personal details to create an account</h6>
                     <div>
-                        <form action="">
+                        <form action="/">
                             <div>
                                 <label htmlFor="name" className='mt-2'>Your Name</label> <br />
                                 <input type="text" className='w-100' required />

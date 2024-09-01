@@ -10,7 +10,7 @@ export default function Login() {
                     <h4 className='fst-italic text-success'>Login to your Account</h4>
                     <h6 className='text-success'>Enter your username and password to login</h6>
                     <div>
-                        <form action="">
+                        <form action="/">
                             <div className='mt-3'>
                                 <label htmlFor="username" className='mt-2'>Your Username</label> <br />
                                 <input type="text" className='w-100' required />

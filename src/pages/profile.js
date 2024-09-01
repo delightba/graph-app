@@ -17,7 +17,7 @@ export default function Profile() {
                 <h5 className='mt-3'>Full-stack Software developer</h5>
               </div>
               <div className='d-flex gap-3 pb-3 mt-4' style={{ marginLeft: '20%' }}>
-                <Link to={'https://github.com/Adeolasheriff?tab=repositories'}><GitHub style={{ color: 'gray' }} /> </Link>
+                <Link to={'https://github.com/Adeolasheriff?tab=repositories'} target='blank'> <GitHub style={{ color: 'gray' }}/> </Link>
                 <Link to={'https://www.instagram.com/adeola.sheriff/'} target='blank' > <Instagram style={{ color: 'gray' }} /> </Link>
                 <Link to={'https://wa.me/2348097204764'} target='blank'> <WhatsApp style={{ color: 'gray' }} /> </Link>
                 <Link to={'https://www.linkedin.com/in/adeola-sheriff-734971296/'} target='blank' > <LinkedIn style={{ color: 'gray' }} /> </Link>
