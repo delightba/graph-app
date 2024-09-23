@@ -10,8 +10,9 @@ import Sellingtable from '../datatable/sellingtable';
 
 export default function Dashboard() {
   return (
-    <div style={{ background: '#e1f5fe' }}>
+    <div style={{ background: '#e1f5fe',paddingBottom:"2rem"}}>
       <Header />
+      
       <div className='container' style={{ marginBottom: '2rem' }}>
         <h3 className='mb-5 ' style={{ color: "#01579b" }}>Dashboard</h3>
         <div className='row mt-3 row-gap-4'>

@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 export default function Notfound() {
   return (
-    <div className='d-flex justify-content-center align-items-center p-3 vh-100' style={{ background: '#e1f5fe'}}>
+   <div>
+     <div className='d-flex justify-content-center align-items-center p-3 vh-100' style={{ background: '#e1f5fe'}}>
         <div className='text-center rounded' style={{width:"40%"}}>
          <div>
          <h1 className='text-center' style={{color:"purple",fontSize:"110px"}}>404</h1>
@@ -14,5 +16,6 @@ export default function Notfound() {
         
         </div>
     </div>
+   </div>
   )
 }
