@@ -11,16 +11,16 @@ export default function Profile() {
         <div className='row'>
           <div className="col-lg-3 col-sm-12 mb-5">
             <div className='bg-white text-center'>
-              <img src="images/hii.PNG" alt="mine" width={'120px'} className='rounded-pill' />
+              <img src="images/delight.jpg" alt="mine" width={'120px'} className='rounded-pill' />
               <div>
-                <h3 className='fst-italic mt-2'>Adeola Sheriff</h3>
+                <h3 className='fst-italic mt-2'>Agboola Samuel</h3>
                 <h5 className='mt-3'>Full-stack Software developer</h5>
               </div>
               <div className='d-flex gap-3 pb-3 mt-4' style={{ marginLeft: '20%' }}>
-                <Link to={'https://github.com/Adeolasheriff?tab=repositories'} target='blank'> <GitHub style={{ color: 'gray' }}/> </Link>
-                <Link to={'https://www.instagram.com/adeola.sheriff/'} target='blank' > <Instagram style={{ color: 'gray' }} /> </Link>
-                <Link to={'https://wa.me/2348097204764'} target='blank'> <WhatsApp style={{ color: 'gray' }} /> </Link>
-                <Link to={'https://www.linkedin.com/in/adeola-sheriff-734971296/'} target='blank' > <LinkedIn style={{ color: 'gray' }} /> </Link>
+                <Link to={'https://github.com/delighb?tab=repositories'} target='blank'> <GitHub style={{ color: 'gray' }}/> </Link>
+                <Link to={'https://www.instagram.com/agboolasamuel202401/'} target='blank' > <Instagram style={{ color: 'gray' }} /> </Link>
+                <Link to={'https://wa.me/2349123925653'} target='blank'> <WhatsApp style={{ color: 'gray' }} /> </Link>
+                <Link to={'https://www.linkedin.com/in/agboola-samuel-734971296/'} target='blank' > <LinkedIn style={{ color: 'gray' }} /> </Link>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function Profile() {
               <h3 className='text-primary'>Profile Details</h3>
               <div className='d-flex mt-3' style={{gap:"19%"}}>
                 <h6>Full Name</h6>
-                <h6>Adeola  Sheriff Adewale</h6>
+                <h6>Agboola Samuel Babatunde</h6>
               </div>
 
               <div className='d-flex mt-3' style={{gap:"19%"}}>
@@ -64,12 +64,12 @@ export default function Profile() {
 
               <div className='d-flex mt-3' style={{gap:"19%"}}>
                 <h6>Phone</h6>
-                <h6>08148754569</h6>
+                <h6>09123925653</h6>
               </div>
 
               <div className='d-flex mt-3' style={{gap:"19%"}}>
                 <h6>Email</h6>
-                <h6>adeolasheriff3@gmail.com</h6>
+                <h6>agboolasamuel2020@gmail.com</h6>
               </div>
 
             </div>
@@ -77,7 +77,7 @@ export default function Profile() {
         </div>
       </div>
       <hr />
-      <h4 className='text-center text-secondary mt-5'>Adeola Sheriff Adewale</h4>
+      <h4 className='text-center text-secondary mt-5'>Agboola Samuel Babatunde</h4>
     </div>
   )
 }

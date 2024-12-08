@@ -1,4 +1,4 @@
-import Header from '../layout/header'
+import Header from '../layout/header';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import Groups3Icon from '@mui/icons-material/Groups3';
@@ -10,11 +10,14 @@ import Sellingtable from '../datatable/sellingtable';
 
 export default function Dashboard() {
   return (
-    <div style={{ background: '#e1f5fe',paddingBottom:"2rem"}}>
+    <div style={{ background: '#e1f5fe', paddingBottom: "2rem" }}>
       <Header />
-      
+
       <div className='container' style={{ marginBottom: '2rem' }}>
         <h3 className='mb-5 ' style={{ color: "#01579b" }}>Dashboard</h3>
+        <h5 className='mt-20' style={{ fontWeight: 'bold', marginTop: '-10px' }}>
+          Home / Dashboard
+        </h5>
         <div className='row mt-3 row-gap-4'>
           <div className="col-lg-9 col-sm-12 col-md-12">
             <div className="row row-gap-4">
@@ -35,8 +38,8 @@ export default function Dashboard() {
                     </div>
                   </div>
                 </div>
-
               </div>
+
               <div className="col-sm-12 col-md-12 col-lg-4">
                 <div className='bg-white p-3' style={{ width: '100%' }}>
                   <div className='d-flex gap-4'>
@@ -75,6 +78,7 @@ export default function Dashboard() {
                 </div>
               </div>
             </div>
+
             <div className='mt-5 bg-white'>
               <Saleschart />
             </div>
@@ -88,9 +92,7 @@ export default function Dashboard() {
               <h4>Top selling today</h4>
               <Sellingtable />
             </div>
-
           </div>
-
 
           <div className="col-lg-3 col-sm-12 col-md-12 bg-white">
             <h5 className='text-primary'>Recent Activity /  <b style={{ color: "#ff6f00" }}>Today</b></h5>
@@ -115,13 +117,11 @@ export default function Dashboard() {
               </div>
               <div className='d-flex gap-3 mt-4'>
                 <h6>2 days</h6>
-                <h6>Dicta dolorem harum nulla eius. Ut quidem
-                </h6>
+                <h6>Dicta dolorem harum nulla eius. Ut quidem</h6>
               </div>
               <div className='d-flex gap-3 mt-4'>
                 <h6>5 weeks</h6>
-                <h6>QDicta dolorem harum nulla eius. Ut quidem
-                </h6>
+                <h6>QDicta dolorem harum nulla eius. Ut quidem</h6>
               </div>
             </div>
             <div className='mt-5'>
@@ -133,7 +133,6 @@ export default function Dashboard() {
               <div className='mt-5 mb-5'>
                 <h6>Website Traffic Today</h6>
                 <Budgetchart />
-
               </div>
 
               <div>
@@ -179,13 +178,17 @@ export default function Dashboard() {
                 </div>
               </div>
             </div>
-
           </div>
-          <hr className='text-success' />
-          <h3 style={{ fontStyle: "italic", textAlign: "center", color: "#ff6f00" }}>Adeola Sheriff Adewale</h3>
         </div>
       </div>
 
+      {/* Copyright section */}
+      <div style={{ marginTop: '2rem', textAlign: 'center' }}>
+        <hr className='text-success' />
+        <h3 style={{ fontStyle: "italic", color: "#ff6f00" }}>
+          © {new Date().getFullYear()} Agboola Samuel Babatunde. All rights reserved.
+        </h3>
+      </div>
     </div>
-  )
+  );
 }

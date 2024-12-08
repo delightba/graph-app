@@ -37,7 +37,7 @@ export default function Contact() {
                                     <div className='text-center'>
                                         <Email />
                                         <h6>Email</h6>
-                                        <h6 className='fst-italic'>adeolasheriff3@gmail.com</h6>
+                                        <h6 className='fst-italic'>agboolasamuel2020@gmail.com</h6>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@ export default function Contact() {
                 </div>
             </div>
             <hr />
-            <h3 className='fst-italic text-info mt-5 text-center'>Adeola Sheriff Adewale</h3>
+            <h3 className='fst-italic text-info mt-5 text-center'>Agboola Samuel Babatunde</h3>
         </div>
     )
 }

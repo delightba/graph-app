@@ -47,7 +47,7 @@ export default function Register() {
                 </div>
             </div>
                 <hr />
-                <h4 className='text-success text-center mt-4'>Adeola Sheriff Adewale</h4>
+                <h4 className='text-success text-center mt-4'>Agboola Samuel Babatunde</h4>
         </div>
     )
 }

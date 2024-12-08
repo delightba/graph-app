@@ -21,6 +21,7 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import Icons from './icon';
+import { Link } from 'react-router-dom';
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -147,9 +148,14 @@ export default function Header() {
             open={isMenuOpen}
             onClose={handleMenuClose}
         >
-            <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-            <MenuItem onClick={handleMenuClose}> 
-             <img src="images/hii.PNG" alt="heyyyy" width={'39px'} /> <b className='ms-3'>My Account</b></MenuItem>
+            <MenuItem onClick={handleMenuClose}>
+                <img src="images/delight.jpg" alt="heyyyy" width={'39px'} /> <b className='ms-3'>Agboola Samuel</b></MenuItem>
+            <ul>
+                <li><Link to="/profile">My Profile</Link></li>
+                <li><Link to="/settings">Account Setting</Link></li>
+                <li><Link to="/help">Need Help</Link></li>
+                <li><Link to="/logout">Sign Out</Link></li>
+            </ul>
 
         </Menu>
     );
@@ -320,16 +326,16 @@ export default function Header() {
                     </IconButton>
                 </DrawerHeader>
 
-              {/* sidebar component*/}
-              <Icons/>
+                {/* sidebar component*/}
+                <Icons />
 
             </Drawer>
-            
+
             <Main open={open}>
                 <DrawerHeader />
                 <Typography paragraph>
-                
-         {/* Consequat mauris nunc congue nisi vitae suscipit. Fringilla est ullamcorper
+
+                    {/* Consequat mauris nunc congue nisi vitae suscipit. Fringilla est ullamcorper
                     eget nulla facilisi etiam dignissim diam. Pulvinar elementum integer enim
                     neque volutpat ac tincidunt. Ornare suspendisse sed nisi lacus sed viverra
                     tellus. Purus sit amet volutpat consequat mauris. Elementum eu facilisis
